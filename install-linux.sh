@@ -64,7 +64,7 @@ install_package linkchecker
 
 install_package linkchecker-gui
 
-sudo apt install yarn
+install_package yarn
 
 
 # NETWORK
