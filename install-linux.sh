@@ -1,122 +1,129 @@
-#!/bin/zsh
+#!/bin/sh
+
+install_package()
+{
+	yes | sudo apt install $@
+}
 
 #sudo apt update
 
 # SYSTEM
-sudo apt install zsh
+install_package zsh
 
-sudo apt install lsb-core
+install_package lsb-core
 
-sudo apt install htop
+install_package htop
 
-sudo apt install nmap
+install_package nmap
 
-sudo apt install imagemagick
+install_package imagemagick
 
-sudo apt install virtualbox-5.1
+install_package virtualbox-5.1
 
-sudo apt install dkms
+install_package dkms
 
-sudo apt install unclutter
+install_package unclutter
 
-sudo apt install xclip
+install_package xclip
 
 # VIDEO
-sudo apt install vpnc
+install_package vpnc
 
-sudo apt install ffmpeg
+install_package ffmpeg
 
 # AUDIO
-sudo apt install audacity
+install_package audacity
 
 # GRAPHIC
-sudo apt install inkscape
+install_package inkscape
 
-sudo apt install scribus
+install_package scribus
+
+install_package gimp
 
 # Install lots of fonts
-sudo apt install ubuntustudio-font-meta
+install_package ubuntustudio-font-meta
 
 # TOOLS
 
-sudo apt install tmux
+install_package tmux
 
-sudo apt install gparted
+install_package gparted
 
-sudo apt install meld
+install_package meld
 
-sudo apt install gnome-commander
+install_package gnome-commander
 
-sudo apt install shutter
+install_package shutter
 
-sudo apt install libgoo-canvas-perl
+install_package libgoo-canvas-perl
 
-sudo apt install tree
+install_package tree
 
-sudo apt install linkchecker
+install_package linkchecker
 
-sudo apt install linkchecker-gui
+install_package linkchecker-gui
 
 sudo apt install yarn
 
 
 # NETWORK
-sudo apt install vncviewer
+install_package vncviewer
 
-sudo apt install xfreerdp
+install_package xfreerdp
 
 # WEBSERVER (PHP 5.6 AND 7.0)
 sudo add-apt-repository ppa:ondrej/php
 
-sudo apt install php7.0 php5.6 php5.6-mysql php-gettext php5.6-mbstring php-mbstring php7.0-mbstring php-xdebug libapache2-mod-php5.6 libapache2-mod-php7.0 php5.6-gd
+install_package php7.0 php5.6 php5.6-mysql php-gettext php5.6-mbstring php-mbstring php7.0-mbstring php-xdebug libapache2-mod-php5.6 libapache2-mod-php7.0 php5.6-gd
 
-sudo apt install php7.1 php7.1-mysql php7.1-mbstring php7.1-xdebug libapache2-mod-php7.1 php7.1-gd php7.1-xml php7.1-curl php7.1-mysql php7.1-zip
+install_package php7.1 php7.1-mysql php7.1-mbstring php7.1-xdebug libapache2-mod-php7.1 php7.1-gd php7.1-xml php7.1-curl php7.1-mysql php7.1-zip
 
-sudo apt install apache2
+install_package apache2
 
-sudo apt install php5.6-xml
+install_package php5.6-xml
 
-sudo apt install php5.6-curl
+install_package php5.6-curl
 
-sudo apt install php7.0-mysql
+install_package php7.0-mysql
 
-sudo apt install php7.0-curl
+install_package php7.0-curl
 
-sudo apt install php7.0-gd
+install_package php7.0-gd
 
-sudo apt install php7.0-zip
+install_package php7.0-zip
 
-sudo apt install php7.0-imap
+install_package php7.0-imap
 
-sudo apt install php7.0-dev
+install_package php7.0-dev
 
-sudo apt install php-pear
+install_package php-pear
 
 sudo pecl install xdebug
 
-sudo apt install mysql-server
+install_package mysql-server
 
 # LETSENCRYPT
 sudo add-apt-repository ppa:certbot/certbot
 sudo apt update
-sudo apt install python-certbot-apache
+install_package python-certbot-apache
 
 # DEVELOPMENT
-sudo apt install git
+install_package git
 
-sudo apt install gitk
+install_package gitk
 
-sudo apt install filezilla
+install_package filezilla
 
-sudo apt install mysql-workbench
+install_package mysql-workbench
 
-sudo apt install npm
+install_package npm
 
 #sudo add-apt-repository ppa:jonathonf/vim
 
 #sudo apt update
 
-#sudo apt install vim
+#install_package vim
 
 # NON APT-GET INSTALLATION
 
