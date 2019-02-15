@@ -57,6 +57,8 @@ sudo apt install linkchecker
 
 sudo apt install linkchecker-gui
 
+sudo apt install yarn
+
 
 # NETWORK
 sudo apt install vncviewer
