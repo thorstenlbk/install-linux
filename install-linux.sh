@@ -18,6 +18,8 @@ sudo apt update
 # SYSTEM
 install_package zsh
 
+install_package zsh-syntax-highlighting
+
 install_package lsb-core
 
 install_package htop
@@ -56,6 +58,12 @@ install_package ubuntustudio-font-meta
 # TOOLS
 
 install_package tmux
+
+install_package ncdu
+
+install_package neofetch
+
+install_package inxi
 
 install_package gparted
 
