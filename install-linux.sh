@@ -7,7 +7,6 @@ install_package()
 
 # ADD REPOSITORIES
 sudo add-apt-repository ppa:ondrej/php # PHP
-sudo add-apt-repository ppa:certbot/certbot # LETSENCRYPT
 sudo add-apt-repository ppa:nextcloud-devs/client # NEXTCLOUD
 # yarn
 curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
