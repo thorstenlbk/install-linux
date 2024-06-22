@@ -67,8 +67,6 @@ install_package inxi
 
 install_package gparted
 
-install_package gnome-commander
-
 install_package shutter
 
 install_package libgoo-canvas-perl
@@ -91,36 +89,6 @@ install_package xfreerdp
 
 install_package filezilla
 
-# WEBSERVER (PHP 5.6 AND 7.0)
-
-install_package php7.0 php5.6 php5.6-mysql php-gettext php5.6-mbstring php-mbstring php7.0-mbstring php-xdebug libapache2-mod-php5.6 libapache2-mod-php7.0 php5.6-gd
-
-install_package php7.1 php7.1-mysql php7.1-mbstring php7.1-xdebug libapache2-mod-php7.1 php7.1-gd php7.1-xml php7.1-curl php7.1-mysql php7.1-zip
-
-install_package php7.2 php7.2-mysql php7.2-mbstring php7.2-xdebug libapache2-mod-php7.2 php7.2-gd php7.2-xml php7.2-curl php7.2-mysql php7.2-zip php7.2-ldap
-
-install_package apache2
-
-install_package php5.6-xml
-
-install_package php5.6-curl
-
-install_package php7.0-mysql
-
-install_package php7.0-curl
-
-install_package php7.0-gd
-
-install_package php7.0-zip
-
-install_package php7.0-imap
-
-install_package php7.0-dev
-
-install_package php-pear
-
-sudo pecl install xdebug
-
 install_package mariadb-server
 
 # LETSENCRYPT
@@ -132,8 +100,6 @@ install_package git
 install_package gitk
 
 install_package gitg
-
-install_package mysql-workbench
 
 install_package npm
 
