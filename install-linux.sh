@@ -51,7 +51,8 @@ install_package scribus
 install_package gimp
 
 # Install lots of fonts
-install_package ubuntustudio-font-meta
+# seems to be missing
+# install_package ubuntustudio-font-meta
 
 
 # TOOLS
