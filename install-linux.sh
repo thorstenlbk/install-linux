@@ -113,6 +113,8 @@ install_package mariadb-server
 
 install_package mkcert # certificates for ddev
 
+install_package libnss3-tools # automatically add CA to browsers
+
 #sudo add-apt-repository ppa:jonathonf/vim
 
 #install_package vim
