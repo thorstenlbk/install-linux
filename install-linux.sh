@@ -5,6 +5,9 @@ install_package()
     yes | sudo apt install $@
 }
 
+# SET VARIABLES
+PHP="php8.2"
+
 # ADD REPOSITORIES
 sudo add-apt-repository ppa:ondrej/php # PHP
 sudo add-apt-repository ppa:nextcloud-devs/client # NEXTCLOUD
@@ -114,6 +117,8 @@ install_package mariadb-server
 install_package mkcert # certificates for ddev
 
 install_package libnss3-tools # automatically add CA to browsers
+
+install_package $PHP
 
 #sudo add-apt-repository ppa:jonathonf/vim
 
