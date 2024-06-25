@@ -79,6 +79,8 @@ install_package linkchecker
 
 install_package linkchecker-gui
 
+install_package curl
+
 install_package fzf # Fuzzy search
 
 # NETWORK
@@ -88,8 +90,6 @@ install_package vncviewer
 install_package xfreerdp
 
 install_package filezilla
-
-install_package mariadb-server
 
 # LETSENCRYPT
 install_package python-certbot-apache
@@ -108,6 +108,8 @@ install_package meld
 install_package yarn
 
 install_package exuberant-ctags
+
+install_package mariadb-server
 
 #sudo add-apt-repository ppa:jonathonf/vim
 
