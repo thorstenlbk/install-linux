@@ -111,6 +111,8 @@ install_package exuberant-ctags
 
 install_package mariadb-server
 
+install_package mkcert # certificates for ddev
+
 #sudo add-apt-repository ppa:jonathonf/vim
 
 #install_package vim
