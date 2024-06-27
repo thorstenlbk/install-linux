@@ -118,7 +118,7 @@ install_package mkcert # certificates for ddev
 
 install_package libnss3-tools # automatically add CA to browsers
 
-install_package $PHP
+install_package $PHP $PHP-imagick
 
 #sudo add-apt-repository ppa:jonathonf/vim
 
