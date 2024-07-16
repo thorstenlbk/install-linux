@@ -83,7 +83,8 @@ install_package linkchecker-gui
 
 install_package curl
 
-install_package fzf # Fuzzy search
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+~/.fzf/install
 
 # NETWORK
 
