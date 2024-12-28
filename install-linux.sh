@@ -100,6 +100,8 @@ install_package filezilla
 install_package python-certbot-apache
 
 # DEVELOPMENT
+install_package python3-neovim # because neovim from snap is shit
+
 install_package git
 
 install_package gitk
