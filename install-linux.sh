@@ -6,7 +6,7 @@ install_package()
 }
 
 # SET VARIABLES
-PHP="php8.2"
+PHP="php8.3"
 
 # ADD REPOSITORIES
 sudo add-apt-repository ppa:ondrej/php # PHP
@@ -122,7 +122,7 @@ install_package mkcert # certificates for ddev
 
 install_package libnss3-tools # automatically add CA to browsers
 
-install_package $PHP $PHP-imagick
+install_package $PHP $PHP-imagick $PHP-xml $PHP-curl
 
 #sudo add-apt-repository ppa:jonathonf/vim
 
